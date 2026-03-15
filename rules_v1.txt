@@ -8,7 +8,7 @@
 facebook.com##a[href*="/reel/"]
 facebook.com##div[aria-label*="reel"]
 facebook.com##div[data-pagelet*="reel"]
-facebook.com##body:not(:has(div[role='button'][aria-label='Back'])) [data-tracking-duration-id]
+facebook.com##body:not(:has(div[role='button'][aria-label='Back'])) [data-tracking-duration-id] ~ [data-tracking-duration-id] ~ [data-tracking-duration-id]
 
 instagram.com##a[href*="/reels/"]
 instagram.com##body:has(:not([href*="?variant=following"]) ytd-feed)
