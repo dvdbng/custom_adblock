@@ -15,7 +15,7 @@ instagram.com##body:has(:not([href*="?variant=following"]) ytd-feed)
 instagram.com##body:has([aria-haspopup="menu"]) article ~ article ~ article
 instagram.com##div[role="menuitem"][href*="/reels/"]
 
-youtube.com##a[href*="/shorts/"]
-youtube.com##div.pivot-bar-item-tab.pivot-shorts
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##ytd-rich-section-renderer:has(a[href*="/shorts/"])
+youtube.com,m.youtube.com##a[href*="/shorts/"]
+youtube.com,m.youtube.com##div.pivot-bar-item-tab.pivot-shorts
+youtube.com,m.youtube.com##ytd-reel-shelf-renderer
+youtube.com,m.youtube.com##ytd-rich-section-renderer:has(a[href*="/shorts/"])
